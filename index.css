@@ -199,15 +199,29 @@ br{
     .icons{
         width: 50px;
     }
-    .hero{
-        /* padding: 30px; */
-        margin: 30px;
-        margin-right: 1rem;
-        margin-inline: auto;
+    .hero {
+        margin: auto; 
+        text-align: center;
+        margin-left: 1rem; 
+
+     
     }
 
 }
-@media (max-width: 425px){
+@media (max-width: 320px){
+    .icons{
+        width: 50px;
+    }
+    .hero {
+        margin: auto; 
+        text-align: center;
+        margin-left: 0.1rem; 
+
+     
+    }
+
+}
+@media (width: 425px){
     .icons{
         width: 55px;
     }
@@ -217,4 +231,10 @@ br{
 
 
    
+}
+@media (width: 1024px){
+    body{
+        margin-inline: auto;
+        margin-top: 15rem;
+    }
 }
