@@ -145,9 +145,15 @@ br{
     
     /* Hero Section */
     .hero {
-        padding: 1rem;
+        /* padding: 1rem 1rem; */
         text-align: center;
-        margin-left: 7rem;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
      
     }
     .hero-text h1 {
@@ -209,8 +215,8 @@ br{
     .hero {
         margin: auto;
         text-align: center;
-        padding: 1rem;
-        margin-left: 1.5rem;
+        /* padding: 1rem; */
+        /* margin-left: 1.5rem; */
     }
     .hero-text h1 {
         font-size: 1rem;
@@ -236,7 +242,7 @@ br{
     .hero {
         margin: auto;
         text-align: center;
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
         margin-left: 0.5rem;
     }
 
@@ -254,15 +260,15 @@ br{
     
 
 }
-@media (max-width: 425px){
+@media (max-width: 600px){
     
     .icons{
         width: 55px;
     }
     .hero {
-        padding: 1rem;
+        /* padding: 1rem; */
         text-align: center;
-        margin-left: 2.5rem;
+        /* margin-left: 2.5rem; */
      
     }
     .logos{
